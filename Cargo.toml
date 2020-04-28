@@ -1,0 +1,19 @@
+[package]
+name = "sorting"
+version = "0.1.0"
+authors = ["Sir Fredrick <sirfredrick@vivaldi.net>"]
+edition = "2018"
+
+[lib]
+name = "sorting_lib"
+path = "src/lib.rs"
+rand = "0.7.3"
+
+[[bin]]
+name = "sorter"
+path = "src/bin/bin.rs"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rand = "0.7.3"
